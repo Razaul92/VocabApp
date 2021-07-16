@@ -1,0 +1,19 @@
+.search {
+  margin: 0.5rem 2rem;
+}
+
+.search input {
+  font-size: 2rem;
+  outline: none;
+  border-radius: 0.5rem;
+  width: 30rem;
+}
+
+.searchIcon {
+  font-size: 2rem !important;
+  margin-left: -2.6rem;
+  margin-bottom: -0.6rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding: 0.2rem;
+}

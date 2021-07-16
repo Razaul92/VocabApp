@@ -1,0 +1,68 @@
+.listLoading {
+  text-align: center;
+  color: teal;
+  font-size: 3rem;
+}
+
+.listError {
+  text-align: center;
+  color: rgb(194, 5, 5);
+  font-size: 3rem;
+}
+
+.list {
+  width: 30rem;
+  margin: 2rem 0 0 2.1rem;
+  border-radius: 1rem;
+  border: 1px solid gray;
+  height: 73vh;
+  overflow: scroll;
+}
+h3 {
+  position: absolute;
+  text-align: center;
+  margin-left: 2rem;
+  margin-top: -0.2rem;
+  width: 30.4rem;
+  height: 1.7rem;
+  padding-top: 0.5rem;
+  background-color: rgb(42, 127, 148);
+  border-radius: 0.5rem;
+}
+.short {
+  display: flex;
+  justify-content: flex-start;
+  align-content: initial;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid gray;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}
+.short label {
+  font-weight: bold;
+}
+
+.defn {
+  position: absolute;
+  width: 30rem;
+  z-index: 50;
+  border-radius: 1rem;
+  border: 1px solid gray;
+  height: 90vh;
+  margin: 1rem 1rem 1rem 26rem;
+  padding-left: 2rem;
+  top: 0;
+  left: 0;
+  color: beige;
+  background-color: blue;
+}
+.closeDefn {
+  margin-left: 28rem;
+  font-size: 2rem;
+}
+
+.defn label {
+  font-weight: bold;
+}

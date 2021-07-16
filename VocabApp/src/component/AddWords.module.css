@@ -1,0 +1,55 @@
+.addWord {
+  border-bottom: 2px solid #156499;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  width: 25rem;
+}
+
+.addWord h1 {
+  margin: 0 0 0.5rem 0;
+  color: #363636;
+}
+
+.addWord p {
+  color: red;
+}
+
+.summary label {
+  display: block;
+  margin-bottom: 1rem;
+}
+.summary input {
+  font-size: 1.5rem;
+  width: 24rem;
+  font-weight: 800;
+}
+.actions {
+  margin-left: 10rem;
+}
+
+@media (min-width: 768px) {
+  .actions {
+    flex-direction: row;
+  }
+}
+
+.actions button {
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: 1px solid #156499;
+  width: 7rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10rem;
+  margin: 0.25rem;
+  background-color: #156499;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: transparent;
+  color: #156499;
+}
